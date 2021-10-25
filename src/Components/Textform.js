@@ -34,7 +34,7 @@ export default function Textform(props) {
         setText(e.target.value);
     }
 
-    // Create Onclick for clear text 
+    // Create Onclick for clear text are cleared
     const handleClClick = () => {
         setText("");
         props.showalert("Clear Text","success");
